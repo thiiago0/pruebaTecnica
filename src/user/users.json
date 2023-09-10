@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Email": "John@gmail.com",
+      "password": "johnny123"
+    },
+    {
+      "id": 2,
+      "Email": "Emily@gmail.com",
+      "password": "emilyj"
+    },
+    {
+      "id": 3,
+      "Email": "Michael@gmail.com",
+      "password": "mike_will"
+    },
+    {
+      "id": 4,
+      "Email": "Sophia@gmail.com",
+      "password": "sophie_b"
+    },
+    {
+      "id": 5,
+      "Email": "William@gmail.com",
+      "password": "will_d"
+    },
+    {
+      "id": 6,
+      "Email": "Olivia@gmail.com",
+      "password": "olivia_g"
+    },
+    {
+      "id": 7,
+      "Email": "James@gmail.com",
+      "password": "james_m"
+    },
+    {
+      "id": 8,
+      "Email": "Ava@gmail.com",
+      "password": "avarob"
+    },
+    {
+      "id": 9,
+      "Email": "Ethan@gmail.com",
+      "password": "ethan_c"
+    },
+    {
+      "id": 10,
+      "Email": "Isabella@gmail.com",
+      "password": "isabella_l"
+    },
+    {
+      "id": 11,
+      "Email": "Mason@gmail.com",
+      "password": "mason_h"
+    },
+    {
+      "id": 12,
+      "Email": "Abigail@gmail.com",
+      "password": "abby_turn"
+    },
+    {
+      "id": 13,
+      "Email": "Alexander@gmail.com",
+      "password": "alex_h"
+    },
+    {
+      "id": 14,
+      "Email": "Charlotte@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 15,
+      "Email": "Daniel@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 16,
+      "Email": "Emma@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 17,
+      "Email": "Henry@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 18,
+      "Email": "Grace@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 19,
+      "Email": "Jacob@gamil.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 20,
+      "Email": "Lily@gamil.com",
+      "password": "1234567890"
+    }
+  ]
+}
