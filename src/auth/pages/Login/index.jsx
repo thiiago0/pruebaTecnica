@@ -1,22 +1,41 @@
 import React from "react";
 import "./login.css";
 import { useToggleEye } from "../../hooks/useToggleEye";
+import { useLoginForm } from "../../hooks/useLoginForm";
 
 export const Login = () => {
   const { passwordVisible, togglePasswordVisibility } = useToggleEye();
+  const {
+    Email,
+    Password,
+    handleChangeInput,
+    setEmail,
+    setPassword,
+    handleLogin,
+  } = useLoginForm();
   return (
-    <div className="container" onClick="">
+    <div className="container">
       <div className="top"></div>
       <div className="bottom"></div>
       <div className="center">
         <h2>Please Sign In</h2>
-        <form>
-          <input type="email" name="email" placeholder="Email" />
+        <form onSubmit={handleLogin}>
+          <input
+            type="email"
+            value={Email}
+            name="email"
+            placeholder="Email"
+            onChange={handleChangeInput(setEmail)}
+            required={Email}
+          />
           <div className="password-input">
             <input
               type={passwordVisible ? "text" : "password"}
               name="password"
               placeholder="Password"
+              value={Password}
+              onChange={handleChangeInput(setPassword)}
+              required={Password}
             />
             <div className="container-icon" onClick={togglePasswordVisibility}>
               <svg
