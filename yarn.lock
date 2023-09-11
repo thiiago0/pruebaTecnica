@@ -272,6 +272,11 @@
   "resolved" "https://registry.npmjs.org/bootstrap-icons/-/bootstrap-icons-1.10.5.tgz"
   "version" "1.10.5"
 
+"bootstrap@^5.3.1":
+  "integrity" "sha512-jzwza3Yagduci2x0rr9MeFSORjcHpt0lRZukZPZQJT1Dth5qzV7XcgGqYzi39KGAVYR8QEDVoO0ubFKOxzMG+g=="
+  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.1.tgz"
+  "version" "5.3.1"
+
 "brace-expansion@^1.1.7":
   "integrity" "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
   "resolved" "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"

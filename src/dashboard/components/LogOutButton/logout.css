@@ -1,0 +1,18 @@
+.logout-container {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  margin-right: -31px;
+  right: 0;
+  top: 70px;
+  /* z-index: -1; */
+}
+
+.btn-logout {
+  position: absolute;
+  cursor: pointer;
+  background: #efcd07 !important ;
+  color: white;
+  z-index: 2;
+  /* box-shadow: 0 0 40px 10px rgba(210, 36, 13, 0.6); */
+}
