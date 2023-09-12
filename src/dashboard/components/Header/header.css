@@ -22,5 +22,16 @@
 .active {
   color: white;
   cursor: pointer;
-  padding: 20px;
+  padding: 4px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.user-email {
+  color: white;
+  padding: 15px;
 }

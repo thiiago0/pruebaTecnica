@@ -11,7 +11,7 @@ export const useLoginForm = () => {
   const [mensaje, setMensaje] = useState("");
 
   const navigate = useNavigate();
-  const { setIsLogged } = useContext(MyContext);
+  const { setIsLogged, setUserEmail } = useContext(MyContext);
 
   const handleChangeInput = (setState) => (e) => {
     setState(e.target.value);
@@ -40,6 +40,8 @@ export const useLoginForm = () => {
       });
       localStorage.setItem("isLogged", true);
       setIsLogged(true);
+      localStorage.setItem("userEmail", user.email);
+      setUserEmail(user.email);
       setEmail("");
       setPassword("");
       setMensaje("");
