@@ -22,12 +22,16 @@ export const CardPokemon = ({ id }) => {
         </div>
       </div>
       <div className="card-botton">
-        <h2 className="card-name">{pokemon.name}</h2>
-        <ul className="card-moves">
-          {movesToShow.map((move) => (
-            <li key={move.move.name}>{move.move.name}</li>
-          ))}
-        </ul>
+        <div className="car-1">
+          <h2 className="card-name">{pokemon.name}</h2>
+        </div>
+        <div className="car-2">
+          <ul className="card-moves">
+            {movesToShow.map((move) => (
+              <li key={move.move.name}>{move.move.name}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

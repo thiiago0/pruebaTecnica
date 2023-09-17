@@ -2,8 +2,10 @@
   color: black;
   border-radius: 10px;
   width: 250px;
-  height: 267px;
-  border: solid 1px black;
+  height: 268px;
+  border: solid 4px rgb(233, 231, 229);
+  box-shadow: -4px 6px 10px rgba(87, 87, 87, 0.6);
+  cursor: pointer;
 }
 
 .poke-img {
@@ -11,35 +13,69 @@
   height: 100px;
 }
 
+/* Estilos CSS */
 .card-top {
-  width: 100%;
-  height: 54%;
+  background-image: url("https://img.freepik.com/free-vector/abstract-yellow-comic-zoom_1409-923.jpg?w=996&t=st=1694966016~exp=1694966616~hmac=df2a6f6be5b9b727d5197bea58b33ae841f6e14bd62e52093048a89bfdfe5826");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 250px;
+  height: 134px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
+
   border-top: 10px;
-  gap: 10px;
   box-sizing: border-box;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(
+      to bottom,
+      rgba(17, 201, 17, 0) 0%,
+      rgba(66, 121, 66, 0.7) 90%
+    );
+    z-index: 0;
+  }
 }
 
 .btn-weigth {
   display: flex;
-  background-color: green;
-  width: 100px;
+  color: white;
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: rgb(14, 185, 14);
+  width: 115px;
   height: 10px;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  border: none;
+  z-index: 1;
 }
 
 .card-botton {
-  width: 100%;
-
-  background-color: rgb(245, 193, 126);
+  width: 249px;
+  height: 132px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(233, 231, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
 .card-name {
@@ -64,4 +100,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+}
+.car-2 {
+  margin-bottom: 10px;
 }
