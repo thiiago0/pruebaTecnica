@@ -6,12 +6,12 @@ export const usePokemonList = () => {
   const [pokemons, setPokemons] = useState([]);
 
   useEffect(() => {
-    const getPokemon = async () => {
+    const getPokemons = async () => {
       let pokes = await getFirstTenPokemons(API_FIRTS_TEN_POKEMON_URL);
       setPokemons(pokes);
     };
 
-    getPokemon();
+    getPokemons();
   }, []); //Arreglo de dependencias -> se ejecuta de nuevo si el valor dentro cambia
 
   return { pokemons };

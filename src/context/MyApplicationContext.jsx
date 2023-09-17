@@ -7,10 +7,7 @@ export const MyApplicationContext = ({ children }) => {
   const [isLogged, setIsLogged] = useState(logInfromStorage);
   const [userEmail, setUserEmail] = useState(userNameFromStorage);
 
-  let options = [
-    { id: 1, nombre: "Home", enlace: "/" },
-    { id: 2, nombre: "PokeAbout", enlace: "/pokeAbout" },
-  ];
+  let options = [{ id: 1, nombre: "Home", enlace: "/" }];
 
   return (
     <MyContext.Provider
