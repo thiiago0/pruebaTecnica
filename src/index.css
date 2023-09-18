@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  padding: 0;
 }
 
 h1 {

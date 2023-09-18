@@ -1,6 +1,20 @@
 .card-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.tittle {
+  display: flex;
+  margin-top: 200px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: rgb(205, 205, 78);
+  text-shadow: 2px 2px 0px rgb(66, 66, 52);
 }
